@@ -13,7 +13,7 @@ Os prazos estão na página de cada aula, no site do Trilha UFPE. Os testes auto
 
 Você precisa de **Python 3.9 ou mais novo**, **Git** e uma conta no **GitHub**.
 
-1. No GitHub, clique em **Fork** neste repositório para criar a sua cópia.
+1. No GitHub, clique em **Fork** neste repositório para criar a sua cópia. No seu fork, abra a aba **Actions** e clique para habilitar os workflows.
 2. Clone a **sua** cópia e instale as dependências:
 
 ```bash

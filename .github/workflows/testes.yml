@@ -6,6 +6,8 @@ on:
 
 jobs:
   testes:
+    # No repositório original as atividades ainda não estão resolvidas; os testes rodam nos forks.
+    if: github.repository != 'roberiof/trilhaufpe-fullstack'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
