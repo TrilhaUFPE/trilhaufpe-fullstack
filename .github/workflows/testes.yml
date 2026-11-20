@@ -5,7 +5,8 @@ on:
   pull_request:
 
 jobs:
-  testes:
+  atividade-1:
+    name: Atividade 1 · API
     # No repositório original as atividades ainda não estão resolvidas; os testes rodam nos forks.
     if: github.repository != 'roberiof/trilhaufpe-fullstack'
     runs-on: ubuntu-latest
@@ -15,4 +16,16 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: pytest -v
+      - run: pytest -v tests/test_api.py
+
+  atividade-2:
+    name: Atividade 2 · SQL
+    if: github.repository != 'roberiof/trilhaufpe-fullstack'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: pytest -v tests/test_sql.py

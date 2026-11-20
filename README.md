@@ -68,7 +68,7 @@ git commit -m "Conclui atividade 1"
 git push
 ```
 
-Confira a aba **Actions** do seu fork: o check verde mostra que os testes passaram no GitHub também. Depois, envie o link do seu fork pelo formulário da página da aula.
+Confira a aba **Actions** do seu fork. Cada atividade tem o seu check: **Atividade 1 · API** e **Atividade 2 · SQL**. O check da atividade que você está entregando precisa ficar verde; o da outra pode continuar vermelho enquanto você não chega nela. Depois, envie o link do seu fork pelo formulário da página da aula.
 
 ## Dúvidas
 
